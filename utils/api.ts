@@ -1,2 +1,2 @@
-// utils/api.ts
-export const API_URL = "https://fan-backend-2.onrender.com"
+// Backend base URL. Set NEXT_PUBLIC_API_URL in .env.local (see .env.example).
+export const API_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000"

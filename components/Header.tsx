@@ -14,7 +14,7 @@ export default function Header() {
         onClick={() => router.push("/app")}
       >
         <Image
-          src="/FAN_logo.png" // ✅ วางไฟล์ FAN_logo.png ไว้ใน /public
+          src="/FAN_logo.png"
           alt="FAN Logo"
           width={40}
           height={40}
